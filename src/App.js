@@ -66,7 +66,7 @@ class App extends React.Component {
       <div className="main-container">
         <div className="side-menu">
           <ul className="list">
-            {[...Array(2).keys()].map((num) => {
+            {[...Array(3).keys()].map((num) => {
               return num === 0 ?
                   <li><button className={`b-${num}-page able isActive`} onClick={(event) => this.handleClick(event)}>Головна</button></li>
                 : <li><button className={`b-${num}-page able`} onClick={(event) => this.handleClick(event)}>Лабораторна робота №{num}</button></li>
