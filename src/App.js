@@ -54,6 +54,7 @@ class App extends React.Component {
       }
       case "b-2-page": {
         this.setState({...{currentPage: classN}, ...lw2});
+        break;
       }
       default: {
         break;
