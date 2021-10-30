@@ -10,7 +10,9 @@ class LabWork extends React.Component {
         <h4><b>Тема</b>: {this.props.theme}</h4>
         <h4><b>Мета</b>: {this.props.aim}</h4>
         <h4><b>Завдання</b>: {this.props.task}</h4>
-        <img src={this.props.imgsrc} alt="Function in laboratory"/>
+        {this.props.imgsrc ?
+          <img src={this.props.imgsrc} alt="Function in laboratory"/>
+        : <p>Додаткових зображень у завданні не було</p>}
         <h4>Виконання:</h4>
         <div className={"code-div"}>
           <pre className={"code-block"}>{this.props.labcode}</pre>

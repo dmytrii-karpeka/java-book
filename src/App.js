@@ -5,6 +5,7 @@ import './LabWork';
 import './functionality';
 import LabWork from "./LabWork";
 import {lw1} from "./labworks/lw1";
+import {lw2} from "./labworks/lw2";
 import {disactivePreviousButton} from "./functionality";
 
 class App extends React.Component {
@@ -50,6 +51,9 @@ class App extends React.Component {
       case "b-1-page": {
         this.setState({...{currentPage: classN}, ...lw1});
         break;
+      }
+      case "b-2-page": {
+        this.setState({...{currentPage: classN}, ...lw2});
       }
       default: {
         break;
