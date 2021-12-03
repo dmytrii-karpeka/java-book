@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/java-book/static/css/main.11d54d9e.chunk.css",
-    "main.js": "/java-book/static/js/main.5055465a.chunk.js",
-    "main.js.map": "/java-book/static/js/main.5055465a.chunk.js.map",
+    "main.js": "/java-book/static/js/main.9b4009ca.chunk.js",
+    "main.js.map": "/java-book/static/js/main.9b4009ca.chunk.js.map",
     "runtime-main.js": "/java-book/static/js/runtime-main.919bd405.js",
     "runtime-main.js.map": "/java-book/static/js/runtime-main.919bd405.js.map",
     "static/js/2.60ea7edd.chunk.js": "/java-book/static/js/2.60ea7edd.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.919bd405.js",
     "static/js/2.60ea7edd.chunk.js",
     "static/css/main.11d54d9e.chunk.css",
-    "static/js/main.5055465a.chunk.js"
+    "static/js/main.9b4009ca.chunk.js"
   ]
 }
